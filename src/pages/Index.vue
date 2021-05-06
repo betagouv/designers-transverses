@@ -85,7 +85,7 @@
                   long d'évolution de votre produit.
                 </p>
                 <div class="call-to-action">
-                  <g-link to="/guides" class="fr-btn fr-btn--sm"
+                  <g-link to="/guides/" class="fr-btn fr-btn--sm"
                     >Découvrir nos guides</g-link
                   >
                 </div>
@@ -231,7 +231,7 @@
         <div class="fr-grid-row fr-grid-row--gutters">
           <div class="fr-col-12">
             <div class="action all-events">
-              <g-link to="/events" class="fr-btn fr-btn--md"
+              <g-link to="/events/" class="fr-btn fr-btn--md"
                 >Voir tous les évènements</g-link
               >
             </div>
