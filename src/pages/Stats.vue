@@ -13,7 +13,7 @@
 
             <div class="fr-grid-row fr-grid-row--gutters">
               <div class="fr-col-12 fr-col-md-5">
-                <img src="images/startups.svg" alt="" />
+                <img src="/images/startups.svg" alt="" />
                 <div class="fr-highlight">
                   Nous accompagnons les Startups d'État dans leur recherche
                   utilisateur, l'organisation d'entretiens ou de tests, la
@@ -69,7 +69,7 @@
 
             <div class="fr-grid-row fr-grid-row--gutters">
               <div class="fr-col-12 fr-col-md-5">
-                <img src="images/designers.svg" alt="" />
+                <img src="/images/designers.svg" alt="" />
                 <div class="fr-highlight">
                   Nous accueillons les designers, leur fournissons des supports
                   de travail et de communication, et diffusons des bonnes
@@ -84,12 +84,14 @@
                       <strong>{{ designers }}</strong> designers dans la
                       communauté
                     </h2>
-                    <p><a
+                    <p>
+                      <a
                         href="https://airtable.com/shrKVGcaSzzXxHI93/tblLXKFp5fHLE8PQ6"
-                        target="_blank" rel="noopener"
+                        target="_blank"
+                        rel="noopener"
                         title="Tous les designers - nouvelle fenêtre"
                         >Tous les designers
-                        </a>
+                      </a>
                       ayant intégré une startup d'État ou l'équipe transverse.
                     </p>
                   </div>
@@ -101,10 +103,11 @@
                     <p>
                       Embarquement des nouveaux designers de la communauté.<br /><a
                         href="https://airtable.com/shrynjHWqvRIfMhZB"
-                        target="_blank" rel="noopener"
+                        target="_blank"
+                        rel="noopener"
                         title="Accueil de nouveau designer - nouvelle fenêtre"
                         >On ne t'a pas accueilli ?
-                        </a>
+                      </a>
                     </p>
                   </div>
                   <div class="kpi">
@@ -112,11 +115,14 @@
                       <strong>{{ rex }}</strong> retours d'expérience
                     </h2>
                     <p>
-                      <a href="#"
-                      target="_blank" rel="noopener"
+                      <a
+                        href="#"
+                        target="_blank"
+                        rel="noopener"
                         title="Documents partagés à la communauté - nouvelle fenêtre"
                         >Documents partagés à la communauté
-                        </a> de travail, maquettes, restitution d'ateliers.
+                      </a>
+                      de travail, maquettes, restitution d'ateliers.
                     </p>
                   </div>
                 </div>
@@ -135,7 +141,7 @@
 
             <div class="fr-grid-row fr-grid-row--gutters">
               <div class="fr-col-12 fr-col-md-5">
-                <img src="images/community.svg" alt="" />
+                <img src="/images/community.svg" alt="" />
                 <div class="fr-highlight">
                   Pour l'ensemble de la communauté, nous proposons des
                   formations, des évènements liés au design et aux bonnes
@@ -245,7 +251,7 @@ export default {
     // Pour les SE
     accompaniedStartup: function () {
       return this.$page.startups.edges.filter(
-          (startup) => startup.node.missions.length > 0
+        (startup) => startup.node.missions.length > 0
       ).length;
     },
     startupsWithDesignerPercent: function () {
@@ -258,8 +264,8 @@ export default {
     },
     accompaniedYouth: function () {
       // Nombre de jeunes SE
-      var totalCount = this.$page.startups.edges.filter(
-        (startup) => ["investigation", "construction"].includes(startup.node.phase)
+      var totalCount = this.$page.startups.edges.filter((startup) =>
+        ["investigation", "construction"].includes(startup.node.phase)
       ).length;
 
       // Nombre de jeunes SE accompagnes
@@ -303,7 +309,6 @@ export default {
     allEvents: function () {
       return this.$page.events.edges.length;
     },
-
   },
 };
 </script>
