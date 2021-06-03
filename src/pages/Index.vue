@@ -34,7 +34,7 @@
                 </p>
                 <div class="call-to-action">
                   <a
-                    href="/"
+                    href="https://airtable.com/shrhbALSi4MptguEA"
                     aria-label="'Réserver un check-up (nouvel onglet)'"
                     target="_blank"
                     class="fr-btn fr-btn--sm fr-fi-external-link-line fr-btn--icon-right"
