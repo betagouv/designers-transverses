@@ -118,7 +118,7 @@
                   </p>
                   <div class="call-to-action">
                     <a
-                      href="https://startups-detat.slack.com/archives/CV6B2G6JD"
+                      href="https://mattermost.incubateur.net/betagouv/channels/domaine-design"
                       aria-label="'Venez dire bonjour (nouvelle fenêtre)'"
                       target="_blank"
                       class="fr-btn fr-btn--sm fr-fi-external-link-line fr-btn--icon-right"
@@ -143,11 +143,11 @@
                   </p>
                   <div class="call-to-action">
                     <a
-                      href="https://startups-detat.slack.com/archives/C010EFL3EQ4"
-                      aria-label="'Rejoindre Slack (nouvelle fenêtre)'"
+                      href="https://mattermost.incubateur.net/betagouv/channels/domaine-design"
+                      aria-label="'Rejoindre la communauté (nouvelle fenêtre)'"
                       target="_blank"
                       class="fr-btn fr-btn--sm fr-fi-external-link-line fr-btn--icon-right"
-                      >Rejoindre Slack</a
+                      >Rejoindre la communauté</a
                     >
                   </div>
                 </div>
